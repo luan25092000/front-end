@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/darkTheme.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-user {
+    color: #214A80;
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+.content-1 {
+    width: 50%;
+    background-color: #1E2833;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.content-2 {
+    width: 50%;
+    background-color: #eee;
+    border-radius: 0 5px 5px 0;
+}
+
+.email,
+.password,
+.confirm-password {
+    width: 60%;
+    margin: 0.5rem 0;
+    padding: 0.2rem;
+    border: 1px solid #545F6A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #1E2833;
+    outline: none;
+    color: white;
+}
+
+.submit {
+    width: 63%;
+    padding: 0.5rem;
+    margin: 0.8rem 0;
+    background-color: #214A80;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(42, 98, 170);
+}
+
+.sign-in {
+    text-decoration: none;
+    color: #545f6A;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.sign-in:hover {
+    text-decoration: underline;
+}
+
+
+/*login with facebook*/
+
+.login-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 30%;
+}
+
+.fa-facebook-f {
+    color: white;
+    font-size: 2rem;
+    margin-left: 0.68rem;
+}
+
+.text-1 {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(54, 54, 230);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.text-1:hover {
+    background-color: blue;
+}
+
+
+/*login with google*/
+
+.login-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5% 0;
+}
+
+.fa-google {
+    font-size: 2rem;
+}
+
+.text-2 {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(250, 57, 57);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.text-2:hover {
+    background-color: red;
+}
+
+
+/*login with skype*/
+
+.login-skype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.fa-skype {
+    font-size: 2.2rem;
+}
+
+.text-3 {
+    height: 2.5rem;
+    width: 15rem;
+    background-color: rgb(12, 195, 241);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.text-3:hover {
+    background-color: rgb(11, 167, 206);
+}
